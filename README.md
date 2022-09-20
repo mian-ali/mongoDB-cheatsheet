@@ -24,3 +24,19 @@ Delete Database
 ```js
 db.dropDatabase()
 ```
+### 2. Collection Commands
+Show Collections
+```js
+show collections
+```
+Create a collection named `comments`
+```js
+db.createCollection('comments')
+```
+Drop a collection named `comments`
+```js
+db.comments.drop()
+```
+
+
+
