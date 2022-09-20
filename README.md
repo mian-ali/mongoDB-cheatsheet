@@ -10,3 +10,17 @@ View all databases
 ```js
 show dbs
 ```
+Create a new or switch databases 
+```js 
+show dbs
+```
+View current Database
+
+```js
+db
+```
+Delete Database 
+
+```js
+db.dropDatabase()
+```
